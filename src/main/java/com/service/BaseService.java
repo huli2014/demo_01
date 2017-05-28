@@ -11,8 +11,8 @@ import com.mapper.BaseMapper;
 public class BaseService {
 	@Autowired
 	BaseMapper baseMapper;
-	public Map<String, Object> test()
-	{
+
+	public Map<String, Object> test() {
 		Map<String, Object> result = baseMapper.findEmp();
 		return result;
 	}
