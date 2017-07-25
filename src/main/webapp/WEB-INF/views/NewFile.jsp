@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	${result.name }
+	${user.username }test
 </body>
 </html>
